@@ -9,12 +9,12 @@ phases:
     - echo Nothing to do in pre_build
   build:
     commands:
-    - echo Build started on `date`
+    - echo "Build started on `date`""
     - sh gradlew build
   post_build:
     commands:
-      -echo Build completed on `date`
-      -sh ls -la build/libs
+      - echo "Build completed on `date`""
+      - sh ls -la build/libs
 artifacts:
   files:
-    -build/libs/springboot-helloworld-1.0.jar        
+    - build/libs/springboot-helloworld.jar        
