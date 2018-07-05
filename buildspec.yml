@@ -12,7 +12,7 @@ phases:
     - echo Build started on `date`
     - sh gradlew build
     - echo Listing the dir
-    - echo `ls -la`
+    - echo `ls -la build/libs`
   post_build:
     commands:
       - echo Build completed on `date`
