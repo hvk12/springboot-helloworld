@@ -17,5 +17,5 @@ phases:
     commands:
       - echo Build completed on `date`
   artifacts:
-  files:
-    - build/libs/springboot-helloworld.jar        
+    files:
+      - build/libs/springboot-helloworld.jar        
